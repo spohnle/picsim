@@ -1,0 +1,10 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PIC_Simulator_deluxe.Form1.resources
+obj\Debug\PIC_Simulator_deluxe.Properties.Resources.resources
+obj\Debug\PIC_Simulator_deluxe.csproj.GenerateResource.Cache
+bin\Debug\PIC_Simulator_deluxe.exe
+bin\Debug\PIC_Simulator_deluxe.pdb
+obj\Debug\PIC_Simulator_deluxe.exe
+obj\Debug\PIC_Simulator_deluxe.pdb
+obj\Debug\PIC_Simulator_deluxe.About.resources
+obj\Debug\PIC_Simulator_deluxe.Log.resources
