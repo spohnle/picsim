@@ -88,13 +88,13 @@ namespace PIC_Sim
             port.Close();
         }
 
-        public void setram(byte[] newram)
+        public void setRam(byte[] newRam)
         {
-            ram = newram;
+            ram = newRam;
             //refresh();   <- whyy?
         }
 
-        public byte[] returnram()
+        public byte[] returnRam()
         {
             return ram;
         }

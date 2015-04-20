@@ -29,5 +29,7 @@ class COMCOM
     public void refresh()
            byte[] sendBytes = pushBytes
            byte[] receivedBytes = pullBytes
-     public void setRam(byte[] RamNeu) = setRam(byte[] newRAM)
+     public void setRam(byte[] RamNeu) = setRam(byte[] newRam)
+    public byte[] returnRAM() = returnRam()
+
 
