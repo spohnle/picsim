@@ -55,6 +55,7 @@
     <Compile Include="COMCOM.cs">
     </Compile>
     <Compile Include="COMCOM_neu.cs" />
+    <Compile Include="cpu_neu.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +73,9 @@
     </Compile>
     <Compile Include="Log.Designer.cs">
       <DependentUpon>Log.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Log_new.cs">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Programmstart%28Programm%29.cs" />

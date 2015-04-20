@@ -32,4 +32,16 @@ class COMCOM
      public void setRam(byte[] RamNeu) = setRam(byte[] newRam)
     public byte[] returnRAM() = returnRam()
 
+class CPU
+    #region Eigenschaften = #region intern_Register
+     public byte[] RAM = Ram
+     byte ramRAAlt = ramRA_Old
+      byte ramRBAlt = ramRB_Old
+    #region Konstruktor
+        public CPU(string[] programmZeilen) = string[] programmRow
+    #region shortcut-Eigenschaften = shortcut-properties
+    #region private Funktionen = private Functions
+            private int[] holeOpcodes(string[] programmZeilen) = ...getOpcodes string[] programmRow
+                List<intTupel> Zeilen = rows
+                int laufvar = index
 
