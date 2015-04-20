@@ -27,7 +27,7 @@ namespace PIC_Sim
 
         private byte lowerNibble(byte Byte)
         {
-            // Code für lower Nibble eines Bytes
+            // Code für unteren 4Bits eines Bytes
             byte retByte = 0;
             retByte = (byte)(Byte & (15));
             retByte = (byte)(retByte + 48);
@@ -36,7 +36,7 @@ namespace PIC_Sim
 
         private byte upperNibble(byte Byte)
         {
-            // Code für upper Nibble eines Byte
+            // Code für oberen 4Bits eines Byte
             byte retByte = 0;
             retByte = (byte)(Byte & (240));
             retByte >>= 4;
@@ -54,7 +54,7 @@ namespace PIC_Sim
 
         public void refresh()
         {
-            //Läd die Hardware neu, sendet Tris und Ports und läd Ports
+            //Läd die Hardware neu, sendet Tris und Ports und läd die Ports
             byte[] pushBytes = new byte[9];
             byte[] pullBytes = new byte[5];
 
