@@ -32,7 +32,7 @@ namespace PIC_Sim
          }
          else
          {
-            //Log.Msg(8, "Stack overflow");
+            //Log.Msg(8, "Stack overflow"); einfach ausmakiert?
          }
         }
 
