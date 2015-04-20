@@ -54,6 +54,7 @@
     </Compile>
     <Compile Include="COMCOM.cs">
     </Compile>
+    <Compile Include="COMCOM_neu.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
