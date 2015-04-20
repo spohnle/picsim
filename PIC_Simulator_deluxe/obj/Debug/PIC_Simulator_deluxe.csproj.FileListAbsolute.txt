@@ -18,3 +18,14 @@ B:\Dokumente\Aa_UNI\Systemnahe Programmierung\PicSim\PIC_Simulator_deluxe\obj\De
 B:\Dokumente\Aa_UNI\Systemnahe Programmierung\PicSim\PIC_Simulator_deluxe\obj\Debug\PIC_Simulator_deluxe.Log.resources
 B:\Dokumente\Aa_UNI\Systemnahe Programmierung\PicSim\PIC_Simulator_deluxe\obj\Debug\PIC_Simulator_deluxe.Properties.Resources.resources
 B:\Dokumente\Aa_UNI\Systemnahe Programmierung\PicSim\PIC_Simulator_deluxe\obj\Debug\PIC_Simulator_deluxe.csproj.GenerateResource.Cache
+C:\Users\jonas\Source\Repos\picsim\PIC_Simulator_deluxe\bin\Debug\PIC_Simulator_deluxe.exe.config
+C:\Users\jonas\Source\Repos\picsim\PIC_Simulator_deluxe\obj\Debug\PIC_Simulator_deluxe.exe
+C:\Users\jonas\Source\Repos\picsim\PIC_Simulator_deluxe\obj\Debug\PIC_Simulator_deluxe.pdb
+C:\Users\jonas\Source\Repos\picsim\PIC_Simulator_deluxe\bin\Debug\PIC_Simulator_deluxe.exe
+C:\Users\jonas\Source\Repos\picsim\PIC_Simulator_deluxe\bin\Debug\PIC_Simulator_deluxe.pdb
+C:\Users\jonas\Source\Repos\picsim\PIC_Simulator_deluxe\obj\Debug\PIC_Simulator_deluxe.csprojResolveAssemblyReference.cache
+C:\Users\jonas\Source\Repos\picsim\PIC_Simulator_deluxe\obj\Debug\PIC_Simulator_deluxe.About.resources
+C:\Users\jonas\Source\Repos\picsim\PIC_Simulator_deluxe\obj\Debug\PIC_Simulator_deluxe.Form1.resources
+C:\Users\jonas\Source\Repos\picsim\PIC_Simulator_deluxe\obj\Debug\PIC_Simulator_deluxe.Log.resources
+C:\Users\jonas\Source\Repos\picsim\PIC_Simulator_deluxe\obj\Debug\PIC_Simulator_deluxe.Properties.Resources.resources
+C:\Users\jonas\Source\Repos\picsim\PIC_Simulator_deluxe\obj\Debug\PIC_Simulator_deluxe.csproj.GenerateResource.Cache

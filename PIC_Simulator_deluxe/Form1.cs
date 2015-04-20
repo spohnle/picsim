@@ -36,45 +36,46 @@ namespace PIC_Simulator_deluxe
             openFileDialog1.ShowDialog();
             string sFileName = openFileDialog1.FileName;
 
-
-            StreamReader sr = new StreamReader(sFileName, Encoding.GetEncoding("Windows-1252"));
-            string sLine = null;
-
-
-            //Alle Zeilen lesen
-            int i = 0;
-            while ((sLine = sr.ReadLine()) != null)
+            if (sFileName != "openFileDialog1")  //openfileDialog1 muss noch angepasst werden
             {
+                StreamReader sr = new StreamReader(sFileName, Encoding.GetEncoding("Windows-1252"));
+                string sLine = null;
 
-                alLines[i] = sLine;
-                i++;
-            }
 
-            //Streamreader schließen
-            sr.Close();
-
-            //Datagridview mit Daten füllen
-            foreach (string line in alLines)
-            {
-                string sLineOpCode;
-                string sLineComment;
-                try
+                //Alle Zeilen lesen
+                int i = 0;
+                while ((sLine = sr.ReadLine()) != null)
                 {
-                    sLineComment = line.Substring(20);
-                    sLineOpCode = line.Substring(0, 9);
-                    if (line.Substring(0, 8) == "        ")
+                    alLines[i] = sLine;
+                    i++;
+                }
+
+                //Streamreader schließen
+                sr.Close();
+
+                //Datagridview mit Daten füllen
+                foreach (string line in alLines)
+                {
+                    string sLineOpCode;
+                    string sLineComment;
+                    try
+                    {
+                        sLineComment = line.Substring(20);
+                        sLineOpCode = line.Substring(0, 9);
+                        if (line.Substring(0, 8) == "        ")
+                        {
+                        }
+                        else
+                        {
+                            dataGridView1.Rows.Add(false, sLineOpCode, sLineComment);
+                        }
+
+                    }
+                    catch
                     {
                     }
-                    else
-                    {
-                        dataGridView1.Rows.Add(false, sLineOpCode, sLineComment);
-                    }
-                    
+
                 }
-                catch
-                {
-                }
-                    
             }
         }
             
