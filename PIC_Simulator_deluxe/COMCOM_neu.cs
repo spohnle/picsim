@@ -18,7 +18,7 @@ namespace PIC_Sim
         public COMCOM(byte[] ram)
         {
             this.ram = ram;
-            port.BautRate = 4800;
+            port.BaudRate = 4800;
             port.Handshake = Handshake.None;
             port.StopBits = StopBits.One;
             port.PortName = "COM4";
@@ -58,26 +58,26 @@ namespace PIC_Sim
             byte[] pushBytes = new byte[9];
             byte[] pullBytes = new byte[5];
 
-            pushBytes[0] = upperNibble(RAM[0x85]);
-            pushBytes[1] = lowerNibble(RAM[0x85]);
-            pushBytes[2] = upperNibble(RAM[5]);
-            pushBytes[3] = lowerNibble(RAM[5]);
-            pushBytes[4] = upperNibble(RAM[0x86]);
-            pushBytes[5] = lowerNibble(RAM[0x86]);
-            pushBytes[6] = upperNibble(RAM[6]);
-            pushBytes[7] = lowerNibble(RAM[6]);
+            pushBytes[0] = upperNibble(ram[0x85]);
+            pushBytes[1] = lowerNibble(ram[0x85]);
+            pushBytes[2] = upperNibble(ram[5]);
+            pushBytes[3] = lowerNibble(ram[5]);
+            pushBytes[4] = upperNibble(ram[0x86]);
+            pushBytes[5] = lowerNibble(ram[0x86]);
+            pushBytes[6] = upperNibble(ram[6]);
+            pushBytes[7] = lowerNibble(ram[6]);
             pushBytes[8] = 13;
             try
             {
-                Port.Open();
-                Port.DiscardOutBuffer();
-                Port.DiscardInBuffer();
-                Port.Write(pushBytes, 0, 9);
-                Port.DiscardOutBuffer();
-                Port.DiscardInBuffer();
+                port.Open();
+                port.DiscardOutBuffer();
+                port.DiscardInBuffer();
+                port.Write(pushBytes, 0, 9);
+                port.DiscardOutBuffer();
+                port.DiscardInBuffer();
                 for (int i = 0; i < 5; i++)
                 {
-                    pullBytes[i] = (byte)(Port.ReadByte());
+                    pullBytes[i] = (byte)(port.ReadByte());
                 }
                 ram[5] = Decode(pullBytes[0], pullBytes[1]);
                 ram[6] = Decode(pullBytes[2], pullBytes[3]);
@@ -85,16 +85,16 @@ namespace PIC_Sim
             catch
             {
             }
-            Port.Close();
+            port.Close();
         }
 
-        public void setRam(byte[] newRam)
+        public void setram(byte[] newram)
         {
-            ram = newRam;
+            ram = newram;
             //refresh();   <- whyy?
         }
 
-        public byte[] returnRAM()
+        public byte[] returnram()
         {
             return ram;
         }
