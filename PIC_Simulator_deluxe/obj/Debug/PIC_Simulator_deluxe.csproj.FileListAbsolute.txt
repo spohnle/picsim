@@ -8,3 +8,13 @@ B:\Dokumente\Aa_UNI (4 sem)\Rechnertechnik\Project_CD_Picsim\MWaeckerle_SZunker\
 B:\Dokumente\Aa_UNI (4 sem)\Rechnertechnik\Project_CD_Picsim\MWaeckerle_SZunker\Source\PIC_Simulator_deluxe\PIC_Simulator_deluxe\PIC_Simulator_deluxe\obj\Debug\PIC_Simulator_deluxe.Log.resources
 B:\Dokumente\Aa_UNI (4 sem)\Rechnertechnik\Project_CD_Picsim\MWaeckerle_SZunker\Source\PIC_Simulator_deluxe\PIC_Simulator_deluxe\PIC_Simulator_deluxe\obj\Debug\PIC_Simulator_deluxe.Properties.Resources.resources
 B:\Dokumente\Aa_UNI (4 sem)\Rechnertechnik\Project_CD_Picsim\MWaeckerle_SZunker\Source\PIC_Simulator_deluxe\PIC_Simulator_deluxe\PIC_Simulator_deluxe\obj\Debug\PIC_Simulator_deluxe.csproj.GenerateResource.Cache
+B:\Dokumente\Aa_UNI\Systemnahe Programmierung\PicSim\PIC_Simulator_deluxe\obj\Debug\PIC_Simulator_deluxe.exe
+B:\Dokumente\Aa_UNI\Systemnahe Programmierung\PicSim\PIC_Simulator_deluxe\obj\Debug\PIC_Simulator_deluxe.pdb
+B:\Dokumente\Aa_UNI\Systemnahe Programmierung\PicSim\PIC_Simulator_deluxe\bin\Debug\PIC_Simulator_deluxe.exe
+B:\Dokumente\Aa_UNI\Systemnahe Programmierung\PicSim\PIC_Simulator_deluxe\bin\Debug\PIC_Simulator_deluxe.pdb
+B:\Dokumente\Aa_UNI\Systemnahe Programmierung\PicSim\PIC_Simulator_deluxe\obj\Debug\PIC_Simulator_deluxe.csprojResolveAssemblyReference.cache
+B:\Dokumente\Aa_UNI\Systemnahe Programmierung\PicSim\PIC_Simulator_deluxe\obj\Debug\PIC_Simulator_deluxe.About.resources
+B:\Dokumente\Aa_UNI\Systemnahe Programmierung\PicSim\PIC_Simulator_deluxe\obj\Debug\PIC_Simulator_deluxe.Form1.resources
+B:\Dokumente\Aa_UNI\Systemnahe Programmierung\PicSim\PIC_Simulator_deluxe\obj\Debug\PIC_Simulator_deluxe.Log.resources
+B:\Dokumente\Aa_UNI\Systemnahe Programmierung\PicSim\PIC_Simulator_deluxe\obj\Debug\PIC_Simulator_deluxe.Properties.Resources.resources
+B:\Dokumente\Aa_UNI\Systemnahe Programmierung\PicSim\PIC_Simulator_deluxe\obj\Debug\PIC_Simulator_deluxe.csproj.GenerateResource.Cache
