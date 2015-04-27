@@ -29,3 +29,5 @@ C:\Users\jonas\Source\Repos\picsim\PIC_Simulator_deluxe\obj\Debug\PIC_Simulator_
 C:\Users\jonas\Source\Repos\picsim\PIC_Simulator_deluxe\obj\Debug\PIC_Simulator_deluxe.Log.resources
 C:\Users\jonas\Source\Repos\picsim\PIC_Simulator_deluxe\obj\Debug\PIC_Simulator_deluxe.Properties.Resources.resources
 C:\Users\jonas\Source\Repos\picsim\PIC_Simulator_deluxe\obj\Debug\PIC_Simulator_deluxe.csproj.GenerateResource.Cache
+B:\Dokumente\Aa_UNI\Systemnahe Programmierung\PicSim\PIC_Simulator_deluxe\bin\Debug\PIC_Simulator_deluxe.exe.config
+B:\Dokumente\Aa_UNI\Systemnahe Programmierung\PicSim\PIC_Simulator_deluxe\obj\Debug\PIC_Sim.Form1.resources
